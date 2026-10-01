@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects | Ngcebo Dlamini</title>
+        <meta name="description" content="Projects built by Ngcebo Dlamini: this portfolio site, a Django and Vue 3 full-stack application, and the GHOSTINC store front end.">
+        <link rel="icon" type="image/svg+xml" href="./src/Images/favicon.svg">
+        <!-- Adds a "js" class so the stylesheet hides the mobile menu only when JavaScript can reopen it. -->
+        <script>document.documentElement.className += " js";</script>
+        <link rel="stylesheet" type="text/css" href="./src/Style/style.css">
+        <script src="./src/Scripts/main.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header">
+            <div class="wrapper header-inner">
+                <a class="brand" href="./index.html">
+                    <span class="brand-mark" aria-hidden="true">ND</span>
+                    <span class="brand-text">Ngcebo Dlamini</span>
+                </a>
+
+                <button class="nav-toggle" type="button" data-nav-toggle
+                        aria-expanded="false" aria-controls="primary-nav">
+                    <span class="nav-toggle-bars" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                    </span>
+                    <span class="visually-hidden">Toggle navigation menu</span>
+                </button>
+
+                <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href="./certificates.html">Certificates</a></li>
+                        <li><a href="./projects.html" class="is-active" aria-current="page">Projects</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button class="theme-toggle" type="button" data-theme-toggle
+                        aria-pressed="false" aria-label="Switch to dark theme">
+                    <span data-theme-icon aria-hidden="true">&#127769;</span>
+                </button>
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="hero">
+                <div class="wrapper">
+                    <p class="hero-eyebrow">Projects</p>
+                    <h1 class="hero-title">Things I Have Built</h1>
+                    <p class="hero-lead">
+                        Three projects in various stages: this website, a Django and Vue
+                        full-stack application, and a store front end waiting on its back end.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section section-projects" id="project-list">
+                <div class="wrapper">
+                    <h2 class="section-title">Project Work</h2>
+                    <p class="section-intro">
+                        Everything here is my own work, built and version-controlled on my
+                        own machine.
+                    </p>
+
+                    <div class="grid grid-cards">
+                        <article class="card card-projects" id="personal-website">
+                            <h3 class="card-title">Personal website</h3>
+                            <p class="card-meta">HTML, CSS, vanilla JavaScript</p>
+                            <p class="card-text">
+                                A five-page responsive portfolio with a light and dark theme,
+                                a mobile navigation drawer and an in-page PDF viewer. No
+                                framework and no build step: the nav, footer and viewer all
+                                come from one shared script.
+                            </p>
+                            <p class="card-footer">
+                                <span class="status status-available">Live now</span>
+                                <a class="btn btn-ghost btn-sm" href="./index.html">Open the home page</a>
+                            </p>
+                        </article>
+
+                        <article class="card card-projects" id="datapundits">
+                            <h3 class="card-title">datapundits</h3>
+                            <p class="card-meta">Python, Django, Vue 3, Vite, axios</p>
+                            <p class="card-text">
+                                A Django project with an API app that serves a welcome
+                                message, paired with a Vue 3 single-page front end that calls
+                                it through a small axios service layer. The API view and the
+                                service layer are in place and the wiring is being finished.
+                            </p>
+                            <p class="card-footer">
+                                <span class="status status-request">In development</span>
+                            </p>
+                        </article>
+                        <article class="card card-projects" id="ghostinc-store">
+                            <h3 class="card-title">GHOSTINC_STORE</h3>
+                            <p class="card-meta">HTML, CSS</p>
+                            <p class="card-text">
+                                The front end for an online store: page templates and the
+                                stylesheet are in place, with the back end still to be
+                                scaffolded.
+                            </p>
+                            <p class="card-footer">
+                                <span class="status status-request">In development</span>
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="note">
+                        <p>
+                            <span class="note-title">Looking for the code?</span>
+                            These projects live in private folders on my machine. Ask on the
+                            <a href="./contact.html">contact page</a> and I will share a
+                            repository link or walk you through them.
+                        </p>
+                    </div>
+
+                    <div class="btn-row">
+                        <a class="btn btn-primary" href="./contact.html">Ask me about a project</a>
+                        <a class="btn btn-ghost" href="./education.html">See my education</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrapper footer-inner">
+                <p class="footer-copy">
+                    &copy; <span data-year>2026</span> Ngcebo Dlamini. Built by hand with
+                    HTML, CSS and vanilla JavaScript.
+                </p>
+                <nav class="footer-nav" aria-label="Footer">
+                    <a href="./index.html">Home</a>
+                    <a href="./education.html">Education</a>
+                    <a href="./certificates.html">Certificates</a>
+                    <a href="./projects.html">Projects</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="mailto:ngcebo4dlamini@gmail.com">Email</a>
+                </nav>
+                <button class="btn btn-ghost btn-sm back-to-top" type="button" data-back-to-top>
+                    Back to top
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
+

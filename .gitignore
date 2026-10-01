@@ -1,0 +1,14 @@
+# --- Editor / OS clutter ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Local archives (not part of the published site) ---
+*.bak
+*.orig
+
+# This repository is a static website: there are no dependencies to install,
+# no build output to ignore, and no secrets or environment files to hide.

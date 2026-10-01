@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Ngcebo Dlamini</title>
+        <meta name="description" content="Contact Ngcebo Dlamini about junior developer, data and IT support opportunities, or to request certificates and documents.">
+        <link rel="icon" type="image/svg+xml" href="./src/Images/favicon.svg">
+        <!-- Adds a "js" class so the stylesheet hides the mobile menu only when JavaScript can reopen it. -->
+        <script>document.documentElement.className += " js";</script>
+        <link rel="stylesheet" type="text/css" href="./src/Style/style.css">
+        <script src="./src/Scripts/main.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header">
+            <div class="wrapper header-inner">
+                <a class="brand" href="./index.html">
+                    <span class="brand-mark" aria-hidden="true">ND</span>
+                    <span class="brand-text">Ngcebo Dlamini</span>
+                </a>
+
+                <button class="nav-toggle" type="button" data-nav-toggle
+                        aria-expanded="false" aria-controls="primary-nav">
+                    <span class="nav-toggle-bars" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                    </span>
+                    <span class="visually-hidden">Toggle navigation menu</span>
+                </button>
+
+                <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href="./certificates.html">Certificates</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./contact.html" class="is-active" aria-current="page">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button class="theme-toggle" type="button" data-theme-toggle
+                        aria-pressed="false" aria-label="Switch to dark theme">
+                    <span data-theme-icon aria-hidden="true">&#127769;</span>
+                </button>
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="hero">
+                <div class="wrapper">
+                    <p class="hero-eyebrow">Contact</p>
+                    <h1 class="hero-title">Get In Touch</h1>
+                    <p class="hero-lead">
+                        I am open to junior developer, data and IT support opportunities, as
+                        well as requests for my CV, transcript or any of the certificates
+                        listed on this site.
+                    </p>
+                </div>
+            </section>
+            <section class="section section-certificates" id="contact">
+                <div class="wrapper">
+                    <h2 class="section-title">Contact Details</h2>
+                    <p class="section-intro">
+                        Email is the fastest way to reach me. You can also use the form.
+                    </p>
+
+                    <div class="contact-layout">
+                        <div>
+                            <dl class="contact-list">
+                                <dt>Email</dt>
+                                <dd><a href="mailto:ngcebo4dlamini@gmail.com">ngcebo4dlamini@gmail.com</a></dd>
+                                <dt>GitHub</dt>
+                                <dd><a href="https://github.com/Ghost016-69" rel="noopener">github.com/Ghost016-69</a></dd>
+                                <dt>Location</dt>
+                                <dd>South Africa &mdash; open to remote work</dd>
+                                <dt>CV</dt>
+                                <dd>
+                                    <a href="./src/Documents/Ngcebo%20Duke%20Dlamini%20CV.pdf"
+                                       target="_blank" rel="noopener">View my CV (PDF)</a>
+                                </dd>
+                            </dl>
+
+                            <div class="note">
+                                <p>
+                                    <span class="note-title">Documents on this site</span>
+                                    My CV, my academic transcript, the three Cisco certificates
+                                    and the Google certificate can all be opened from this
+                                    site. For anything else &mdash; a different IBM course, my
+                                    diploma or my matric certificate &mdash; just say which one
+                                    you need.
+                                </p>
+                            </div>
+                        </div>
+
+                        <form class="contact-form" data-contact-form
+                              data-mailto="ngcebo4dlamini@gmail.com"
+                              action="mailto:ngcebo4dlamini@gmail.com"
+                              method="post" enctype="text/plain">
+                            <div class="field">
+                                <label for="name">Your name</label>
+                                <input id="name" name="name" type="text"
+                                       autocomplete="name" required>
+                            </div>
+                            <div class="field">
+                                <label for="email">Your email</label>
+                                <input id="email" name="email" type="email"
+                                       autocomplete="email" required>
+                                <p class="field-hint">So that I can reply to you.</p>
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <p class="field-hint">
+                                    This form opens your own email app. Nothing is stored on a
+                                    server, because this site has no back end yet.
+                                </p>
+                            </div>
+                            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+                            <div class="btn-row">
+                                <button class="btn btn-primary" type="submit">Send message</button>
+                            </div>
+                            <noscript>
+                                <p class="field-hint">
+                                    JavaScript is off, so the form will hand your message
+                                    straight to your email client instead.
+                                </p>
+                            </noscript>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrapper footer-inner">
+                <p class="footer-copy">
+                    &copy; <span data-year>2026</span> Ngcebo Dlamini. Built by hand with
+                    HTML, CSS and vanilla JavaScript.
+                </p>
+                <nav class="footer-nav" aria-label="Footer">
+                    <a href="./index.html">Home</a>
+                    <a href="./education.html">Education</a>
+                    <a href="./certificates.html">Certificates</a>
+                    <a href="./projects.html">Projects</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="mailto:ngcebo4dlamini@gmail.com">Email</a>
+                </nav>
+                <button class="btn btn-ghost btn-sm back-to-top" type="button" data-back-to-top>
+                    Back to top
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
+
