@@ -10,7 +10,7 @@ vanilla JavaScript. No framework, no build step, no dependencies to install.
 | `index.html` | Hero, about me, skills, highlights and a closing call to action |
 | `education.html` | Matric subjects and results, diploma modules, and supporting documents |
 | `certificates.html` | Twelve certificates (Cisco, Google, IBM, Twinkl, Digiy Africa), six with viewable PDFs |
-| `projects.html` | This website and two other projects |
+| `projects.html` | This website and three other projects |
 | `contact.html` | Contact details and a mail-to based message form |
 
 ## Layout
